@@ -1,0 +1,84 @@
+Using Bag Of Word (BOW)========================================
+
+feature shape:  (14640, 10029)
+
+name:  Naive Bayes ==================================================
+accuracy  0.67978
+recall_macro  0.43709
+precision_macro  0.74420
+f1_macro  0.44161
+time:  2.03436
+
+name:  Logistic Regression ==================================================
+accuracy  0.76735
+recall_macro  0.64474
+precision_macro  0.74250
+f1_macro  0.67725
+time:  18.75231
+
+name:  Decision Tree ==================================================
+accuracy  0.68661
+recall_macro  0.60717
+precision_macro  0.61280
+f1_macro  0.61065
+time:  25.33119
+
+name:  SVM Linear ==================================================
+accuracy  0.76926
+recall_macro  0.66308
+precision_macro  0.73314
+f1_macro  0.68845
+time:  174.50046
+
+name:  SVM RBF ==================================================
+accuracy  0.76175
+recall_macro  0.62454
+precision_macro  0.74676
+f1_macro  0.65800
+time:  257.52735
+
+name:  SVM Polynomial ==================================================
+accuracy  0.62691
+recall_macro  0.33333
+precision_macro  0.20897
+f1_macro  0.25689
+time:  194.33711
+
+Adaboost
+Accuracy: 0.71926 (+/- 0.01894) -> decision tree
+
+=================================================
+data for report
+=================================================
+
+=======================BOW-TFIDF=================
+name:  Naive Bayes + BOW + TF-IDF 
+accuracy :   0.67978
+recall_macro :   0.43709
+precision_macro :   0.74420
+f1_macro :   0.44161
+training time:  0.06398200988769531
+
+=======================Word Embbedding=================
+name:  Naive Bayes + Word2Vec 
+accuracy:  0.67760
+recall_macro:  0.45863
+precision_macro:  0.62538
+f1_macro:  0.47277
+training time:  0.07006096839904785
+
+=======================Adaboost=================
+name:  Naive Bayes + Adaboost
+accuracy :   0.69201
+recall_macro :   0.50058
+precision_macro :   0.64876
+f1_macro :   0.52387
+training time:  8.262930154800415
+
+=======================Bagging===================
+ame:  Naive Bayes + Bagging
+accuracy :   0.67739
+recall_macro :   0.45784
+precision_macro :   0.62560
+f1_macro :   0.47182
+training time:  0.42504096031188965

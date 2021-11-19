@@ -1,0 +1,29 @@
+/home/craven/software-project/python/machine-learning/bin/python3 /home/craven/software-project/python/airlines-wbd-airline/load_evaluation_word2vec.py
+TERM environment variable not set.
+(14619, 300)
+(14619, 1)
+
+name:  Naive Bayes ==================================================
+accuracy  0.65381
+recall_macro  0.53753
+precision_macro  0.57385
+f1_macro  0.55026
+time:  4.49221
+
+name:  Logistic Regression ==================================================
+accuracy  0.75436
+recall_macro  0.64638
+precision_macro  0.69943
+f1_macro  0.66548
+time:  81.13317
+
+name:  Decision Tree ==================================================
+accuracy  0.59053
+recall_macro  0.48703
+precision_macro  0.48435
+f1_macro  0.48846
+time:  136.69312
+
+name:  SVM Linear ==================================================
+accuracy  0.75730
+
