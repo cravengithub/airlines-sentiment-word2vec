@@ -1,1 +1,1 @@
-# airline-sentimen
+# airline-sentimen-word2vec
